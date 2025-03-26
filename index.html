@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="estilosinicio.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Quesos Saraguros</h1>
+        <div class="logo">
+            <img src="logo1.jpg" alt="Logo de Emprendimiento">
+        </div>
+         <!-- Barra de navegación -->
+         <nav class="navbar">
+            <ul>
+                <li><a href="portada.html">PORTADA</a></li>
+                <li><a href="productos.html">PRODUCTOS</a></li>
+                <li><a href="sucursales.html">SUCURSALES</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Información antes del slider -->
+    <section class="info">
+        <h2>Introducción</h2>
+        <p>Quesos Saraguros nace como una empresa pequeña como fundador el señor Antonio Contento quien funda Quesos Saraguros como una alternativa para crecer como persona y dar sustento a su familia así que esta empresa nace de eso de una necesidad, Antonio contento no tenia mucho conocimiento y mucho menos personal así que los primeros años el tenia que hacer todo desde recoger la leche de su proveedores hasta vender el producto, inicialmente solo él estaba involucrado pero después de una crisis comercial donde el producto no se vendía, sus hermanos tomar la iniciativa de crear sucursales para que así quesos Saraguros se de a conocer al pueblo y posteriormente al país.</p>
+        <img src="creador1.jpg" alt="Imagen introductoria" width="250px" height="300px">
+        <img src="quesos1.jpeg" alt="Imagen introductoria" width="400px" height="400px">
+    </section>
+
+    <!-- Slider -->
+    <section class="slider">
+        <div class="slide active">Slide 1</div>
+        <div class="slide">Slide 2</div>
+        <div class="slide">Slide 3</div>
+    </section>
+
+    <!-- Información después del slider -->
+    <section class="info">
+        <h2>Sobre Nosotros</h2>
+        <p>Quesos Saraguro es una empresa basada en la creación, producción y comercialización de quesos y yogures de diferentes tipos y sabores, estamos presentes en diferentes puntos de país en ciudades como Cuenca y Quito nuestra fabrica está ubicada en Saraguro junto a la primera sucursal de quesos Saraguro, nuestros quesos además de nuestras sucursales los encuentras en distintas tiendas al nivel de país cabe recalcar que los quesos que encontraras son de la línea comercial, las otras líneas las encuentras en nuestras sucursales.</p>
+        <img src="picaditas.jpeg" alt="Sobre nosotros" width="300px" height="300px">
+    </section>
+
+    <!--Informacion antes de un carrucel-->
+
+    <section class="info">
+        <h2>Que ofrecemos</h2>
+        <p>De  Saraguro para el mundo ofrecemos un gran variedad de quesos divididos en tres líneas como son la línea económica sus quesos son el fresco y el amasado, línea comercial con quesos como el andino, mozzarella y otros, y como final la línea premium donde su ubican los quesos maduros, con sus mayores exponentes que son el queso andino madurado con un tiempo exacto de maduración de dos meses, y el queso Montañez con un año de maduración , además de eso en nuestras sucursales también encontraras las pizzas con las recetas de Contentos Pizza otra de las empresas creadas por Antonio Contento. Así mismo nuestras sucursales ofrecen alimentos como el café, el chocolate, los tamales las humitas, desayunos y mucho mas</p>
+        <img src="quesoamasado.jpeg" alt="Sobre nosotros" width="300px" height="300px">
+        <img src="yogutrdurazno.jpeg" alt="Sobre nosotros" width="300px" height="300px">
+        <img src="quesoaji.jpeg" alt="Sobre nosotros" width="300px" height="300px">
+
+    </section>
+
+    <!--Sucursales-->
+
+    <section class="info">
+        <h2>Nuestras Sucursales</h2>
+        <p>Tenemos una gran variedad de sucursales de las mas importantes destacamos la sucursal central la vía panamericana Saraguro-Loja en el kilómetro 5 donde también funciona nuestra fabrica, donde también nos puede encontrar es el centro de Cuenca en las calles Sucre y Presidente Borrero, también en la vía cuenca-Molleturo sector el cajas kilometro 6 y un poco mas adelante en el kilometro 48 en el sector Miguir.</p>
+    </section>
+
+
+    <!--carrucel-->
+
+    <section id="carousel">
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="sucursal1s.jpg" alt="Imagen 1" width="400px" height="400px">
+                    <div class="caption">Sucursal1 - Saraguro</div>
+                </div>
+                <div class="carousel-item">
+                    <img src="sucursal12.jpeg" alt="Imagen 2"width="400px" height="400px">
+                    <div class="caption">Sucursal2- El Cajas</div>
+                </div>
+                <div class="carousel-item">
+                    <img src="sucursal4.jpg" alt="Imagen 3" width="400px" height="400px">
+                    <div class="caption">Sucursal2- Cuenca</div>
+                </div>
+            </div>
+            <div class="controls">
+                <button class="btn prev" onclick="mover(-1)">❮</button>
+                <button class="btn next" onclick="mover(1)">❯</button>
+            </div>
+            <div class="indicators">
+                <span onclick="setSlide(0)" class="dot active"></span>
+                <span onclick="setSlide(1)" class="dot"></span>
+                <span onclick="setSlide(2)" class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Información antes del carrusel -->
+    <section class="info">
+        <h2>Proyectos A Futuro</h2>
+        <p>Como proyectos a futuro tenemos pensado incursionar en la industria de las salsas, las mermeladas, los manjares, como proyecto inmediato tenemos la creación de una cerveza artesanal que nace de nuestras raíces y como no más quesos.</p>
+        <img src="sucursal11.jpeg" alt="Nuestro trabajo"width="400px" height="400px">
+    </section>
+
+    <!-- Carrusel de imágenes -->
+    <section class="carousel">
+        <h2>Carrusel de Imágenes</h2>
+        <div class="carousel-container">
+            <img src="sucursal13.jpeg" alt="Imagen 1" width="400px" height="400px">
+            <img src="quesopasto.jpeg" alt="Imagen 2" width="400px" height="400px">
+            <img src="picaditas.jpeg" alt="Imagen 3"width="400px" height="400px">
+        </div>
+    </section>
+
+    <!-- Galería de imágenes independientes -->
+    <section class="gallery">
+        <h2>Galería de Imágenes</h2>
+        <div class="gallery-item">
+            <img src="quesohoja.jpeg" alt="Imagen 4"width="400px" height="400px">
+            <p>Descripción de la imagen 4.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="sucursal12.jpeg" alt="Imagen 5"width="400px" height="400px">
+            <p>Descripción de la imagen 5.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="quesoaji.jpeg" alt="Imagen 6"width="400px" height="400px">
+            <p>Descripción de la imagen 6.</p>
+        </div>
+    </section>
+
+    <script src="formaestilos.js"></script>
+</body>
+</html>

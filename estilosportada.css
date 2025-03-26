@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+/* Header vertical */
+header {
+    width: 200px;
+    height: 100vh; /* Ocupa toda la altura */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Mantiene los elementos al inicio */
+    align-items: center;
+    background-color: #1d7214f6;
+    color: #ffffff;
+    padding: 20px 0;
+    position: fixed; /* Fija el header al lado izquierdo */
+    left: 0;
+    top: 0;
+}
+
+/* Logo */
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    transition: background 0.3s;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #2aca1c; /* Efecto hover */
+}
+
+/* Contenedor principal */
+main {
+    margin-left: 200px; /* Deja espacio para el header */
+    height: 100vh; /* Ocupa toda la altura restante */
+    background-image: url('fondo1.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Fondo semitransparente en el contenido principal */
+.content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px; /* Ancho máximo del contenido */
+}
+
+/* TEXTO GRANDE */
+
+.texto-grande {
+    font-size: 80px; /* Cambia el tamaño según tus necesidades */
+    color: gold;
+}
+
+/* TEXTO GRANDE2 */
+
+.texto-grande2 {
+
+    font-size: 40px; /* Cambia el tamaño según tus necesidades */
+    color: green;
+}
